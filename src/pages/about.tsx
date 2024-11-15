@@ -1,13 +1,13 @@
 import Layout from '@/components/Layout'
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <div>
-        <h1>AnyGo</h1>    
+        <h1>About</h1>
       </div>
     </Layout>
   )
 }
 
-export default HomePage
+export default AboutPage
