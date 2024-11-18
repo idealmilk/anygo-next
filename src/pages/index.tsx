@@ -1,10 +1,11 @@
+import Hero from '@/components/Hero'
 import Layout from '@/components/Layout'
 
 const HomePage = () => {
   return (
     <Layout>
       <div>
-        <h1>AnyGo</h1>    
+        <Hero />
       </div>
     </Layout>
   )

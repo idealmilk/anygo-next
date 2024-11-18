@@ -18,8 +18,11 @@ const Footer = () => {
                 <li className="mb-4">
                   <Link href="/for-schools" className="hover:underline">For schools</Link>
                 </li>
-                <li>
+                <li className="mb-4">
                   <Link href="/for-schools" className="hover:underline">For businesses</Link>
+                </li>
+                <li>
+                  <Link href="/pricing" className="hover:underline">Pricing</Link>
                 </li>
               </ul>
             </div>
