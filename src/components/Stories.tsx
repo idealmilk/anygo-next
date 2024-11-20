@@ -3,7 +3,7 @@ import { Stories } from '@/data/stories'
 
 const StoriesList = () => {
   return (
-    <div className="grid grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto mt-20 grid w-10/12 max-w-screen-xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       {Stories.map((story, index) => (
         <Link href={`/stories/${story.id.toString()}`} key={index}>
           <div

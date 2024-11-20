@@ -4,8 +4,8 @@ import Header from '@/components/Header'
 import Footer from './Footer'
 
 type LayoutProps = {
-  children: ReactNode;
-};
+  children: ReactNode
+}
 
 const Layout = ({ children }: LayoutProps) => {
   return (
